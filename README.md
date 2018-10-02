@@ -9,3 +9,6 @@ $urlParseObj = Invoke-URLParse -URL 'https://subdomain.domain.com/test.php?param
 ```
 
 `$urlParseObj` is a hashtable containing fully decoded URL, base domain, and another hash table with URL parameter names and values.
+
+
+Note: Requires at least .NET 4.0 for the WebUtility class (see line 36).
